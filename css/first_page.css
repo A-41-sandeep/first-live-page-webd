@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#top{
+    height: 1000px;
+    width: 100%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/859/695/600/music-cassette-blender-mp3-3d-render-3d-1280x960-entertainment-music-hd-art-wallpaper-preview.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(109, 204, 204)
+}
+nav{
+    background:linear-gradient(rgb(84, 84, 179),pink,rgb(202, 136, 136),rgb(107, 139, 107),rgb(151, 96, 96),rgb(173, 125, 167),rgb(87, 87, 165));
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position: fixed;
+    top:0%;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform:uppercase
+}
+nav ul li{
+    margin:40px;
+}
+#socialmedialogo{
+    margin-left: 400px;
+    
+}
